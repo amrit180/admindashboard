@@ -1,0 +1,59 @@
+.backgroundHome {
+  background: linear-gradient(180deg, #ffffff 0%, #dee3f3 100%);
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 170px;
+}
+.cardWhite {
+  background-color: #fff;
+  height: 400px;
+  width: 400px;
+  margin-bottom: 100px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardCenter {
+  width: 360px;
+  height: 400px;
+}
+.button_edit {
+  width: auto;
+  height: 30px;
+  border-radius: 8px;
+  color: #6360ab;
+  font-size: 12px;
+  border: 1px solid #6360ab;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+.button_edit:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #6360ab;
+}
+.spreadCard {
+  height: 400px;
+  width: 850px;
+  margin-bottom: 100px;
+  border-radius: 30px;
+  display: grid;
+  justify-content: center;
+
+  align-items: center;
+  background-color: #fff;
+}
+.gapCheck {
+  margin-right: 40px;
+}
+@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 450px) {
+  .gapCheck {
+    margin-right: 0px;
+  }
+  .cardWhite {
+    width: 370px;
+  }
+}

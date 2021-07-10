@@ -1,0 +1,56 @@
+.adminButton {
+  height: 45px;
+  width: 150px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+.nav-itema {
+  margin-right: 20px;
+}
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+.navbarSite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+
+  /* gap: 20px; */
+}
+
+.menua-icon {
+  display: none;
+}
+.fas {
+  color: #fff;
+}
+@media screen and (max-width: 996px) {
+  .menua-icon {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+  }
+  .navbarSite {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 70px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+  .navbarSite.active {
+    background: #666;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+}
